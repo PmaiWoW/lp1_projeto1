@@ -6,8 +6,8 @@ namespace EightTeenGhosts
 {
     /// <summary>
     /// This class soul purpose is to check at any time in the game if there's 
-    /// any player in a winning position.<br> Check the rules of '18 ghosts' for
-    /// the winning condition of the game
+    /// any player in a winning position.<br>
+    /// Check the rules of '18 ghosts' for the winning condition of the game
     /// </summary>
     class WinChecker
     {
@@ -64,7 +64,8 @@ namespace EightTeenGhosts
 
             if (winMatrix[player1Selection, player2Selection] == null)
                 return null;
-            return (winMatrix[player1Selection, player2Selection] == true) ? true : false;
+            return (winMatrix[player1Selection, player2Selection] == true) 
+                ? true : false;
         }
 
     }
