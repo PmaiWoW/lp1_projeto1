@@ -127,7 +127,8 @@ namespace EightTeenGhosts
 
                 // Exit key, force win condition
                 if (Console.ReadKey().Key == ConsoleKey.Escape)
-                    gameBoard.ghostsOutside[0] = CellColor.Blue | CellColor.Yellow | CellColor.Red;
+                    gameBoard.ghostsOutside[0] = CellColor.Blue | 
+                        CellColor.Yellow | CellColor.Red;
             }
         }
 
